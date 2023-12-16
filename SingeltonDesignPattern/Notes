@@ -1,0 +1,14 @@
+
+In this, Object is created only once and that object is used again and again.
+
+Example:
+Suppose you want to perform CRUD operation in your java applications. For this you need to connect your java application with Database via JDBC.
+Then for this, we no need to create object again and again to connect with database.
+Here we will create only one object and that will make connection with database and perform CRUD.
+
+Steps: 
+# make constructor private
+# make a private static variable of class
+# make a method public static which will return class object
+# we will create object with the help of method
+  
